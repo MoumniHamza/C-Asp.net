@@ -11,6 +11,7 @@ namespace ConsoleApplication2
         static void Main(string[] args)
         {
             CalculateAverage("my phone", "your phone", 1400, 1250);
+            CalculateAverage(1400, 1250);
             Console.WriteLine("Type enter to exit");
             Console.ReadLine();
         }
