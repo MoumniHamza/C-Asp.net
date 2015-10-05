@@ -14,18 +14,18 @@ namespace ConsoleApplication9
             Calculate(Name);
             Console.WriteLine(Name);
             Console.ReadLine();
-            Console.WriteLine("Please enter to exit"); 
+            Console.WriteLine("Please enter to exit");
         }
 
         public static void Calculate(params string[] Names)
         {
             Console.WriteLine(" There is {0} names in your list: ", Names.Length);
-            foreach(string name in Names)
+            foreach (string name in Names)
             {
                 Console.WriteLine(name);
             }
             Console.ReadLine();
-            
+
         }
     }
 }
