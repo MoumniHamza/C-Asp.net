@@ -28,11 +28,16 @@ using System.Collections.Generic;
         Console.WriteLine("Press enter to continue");
 
         string number2 = "220";
-        int secondNumber3 = int.Parse(number2);
+        int secondNumber3 = int.Parse(number2);// Explicitly converts a string to a number but inside the string needs to be a number
         Console.WriteLine(secondNumber3);
         Console.ReadLine();
         Console.WriteLine("Press enter to continue");
 
+        string number3 = "na234";
+        int secondNumber4 = int.Parse(number3);// This one fail because  parse only converts numbers inside a string
+        Console.WriteLine(secondNumber4);
+        Console.ReadLine();
+        Console.WriteLine("Press enter to continue");
     }
     }
    
