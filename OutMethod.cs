@@ -18,11 +18,11 @@ namespace ConsoleApplication9
             Console.WriteLine("Press enter to exit");
         }
 
-        public static void Calculate(int fn, int sn , out int sum, out int product)
+        public static void Calculate(int fn, int sn, out int sum, out int product)
         {
-          sum = fn + sn;
-          product = fn* sn;
-             
+            sum = fn + sn;
+            product = fn * sn;
+
         }
     }
 }
