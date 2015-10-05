@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 
 namespace ConsoleApplication9
-{   
+{
     class Customer
     {
         public string _firstName;
