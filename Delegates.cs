@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ConsoleApplication16
 {
     public delegate void delegatefunction(string name);
-        
+
     class Program
     {
         static void Main(string[] args)
@@ -20,7 +20,7 @@ namespace ConsoleApplication16
 
         }
 
-        public static void function(string  name)
+        public static void function(string name)
         {
             Console.WriteLine(name);
         }
