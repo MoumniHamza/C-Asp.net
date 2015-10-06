@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication16
 {
-     class employee
+    class employee
     {
         public string name { get; set; }
         public int id { get; set; }
@@ -14,9 +14,9 @@ namespace ConsoleApplication16
         public int experience { get; set; }
         public static void promotion(List<employee> employed, AmIPromoted promoted)
         {
-            foreach(employee e in employed)
+            foreach (employee e in employed)
             {
-                if(promoted(e))
+                if (promoted(e))
                 {
                     Console.WriteLine(e.name);
                 }
@@ -38,10 +38,10 @@ namespace ConsoleApplication16
             AmIPromoted promoted = new AmIPromoted(promote);
 
             employee.promotion(employees, promoted);
-         }
+        }
         public static bool promote(employee emp)
         {
-            if(emp.experience >= 5)
+            if (emp.experience >= 5)
             {
                 return true;
             }
@@ -50,6 +50,6 @@ namespace ConsoleApplication16
                 return false;
             }
         }
-            
-        }
+
     }
+}
