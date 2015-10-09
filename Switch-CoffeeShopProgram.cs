@@ -11,7 +11,7 @@ using System.Collections.Generic;
         Console.WriteLine("Welcome to our Coffeshop, this is what we serve , what would you like to drink ");
         Console.WriteLine("1- Cappucino, 2- Latte, 3-Expresso");
         Console.WriteLine("When you are ready press the number of your choice");
-        int choice = int.Parse(Console.ReadLine()); // I convert it to integer
+        int choice = int.Parse(Console.ReadLine()); // I converted the choice into integer using the parse
 
         switch(choice)
         {
